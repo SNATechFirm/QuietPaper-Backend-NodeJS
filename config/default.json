@@ -1,0 +1,35 @@
+{
+    "db_url": "mongodb+srv://arpit:arpit@cluster0.7bpu5.mongodb.net/QuitePaper",
+    "jwt_token_secret": "QuitePaper-2.0-secreat-Key",
+    "jwt_for_uniqueId" : "Create-Unique-Id",
+    "refresh_jwt_token_secret": "QuitePaper-2.0-secreat-Key",
+    "Winston": {
+        "level": "debug"
+    },
+    "nodeMail": {
+        "mail": "arpitnakrani2580@gmail.com",
+        "password": "@RPIT123456",
+        "service": "gmail"
+    },
+    "timeZone": "Asia/Calcutta",
+    "aws": {
+        "accessKeyId": "",
+        "secretAccessKey": "",
+        "region": "",
+        "bucket_name": "",
+        "bucket_url": ""
+      },
+    "fcmKey": "",
+
+    "paytmConfig" : {
+
+        "MID" : "rNItqH27297545777088",
+        "MKEY" : "PLF56PXWYKaOfsMG",
+        "ENV" : "securegw-stage.paytm.in",  
+        "WEBSITE" : "WEBSTAGING",
+        "StagingEnvironment": "https://securegw-stage.paytm.in/theia/paytmCallback?ORDER_ID=<order_id>",
+        "ProductionEnvironment": "https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=<order_id>"
+    }
+ 
+
+}
