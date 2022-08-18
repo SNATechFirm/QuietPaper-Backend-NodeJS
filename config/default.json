@@ -1,5 +1,5 @@
 {
-    "db_url": "mongodb+srv://arpit:arpit@cluster0.7bpu5.mongodb.net/QuitePaper",
+    "db_url": "mongodb+srv://<username>:<password>@cluster0.7bpu5.mongodb.net/QuitePaper",
     "jwt_token_secret": "QuitePaper-2.0-secreat-Key",
     "jwt_for_uniqueId" : "Create-Unique-Id",
     "refresh_jwt_token_secret": "QuitePaper-2.0-secreat-Key",
@@ -7,8 +7,8 @@
         "level": "debug"
     },
     "nodeMail": {
-        "mail": "arpitnakrani2580@gmail.com",
-        "password": "@RPIT123456",
+        "mail": "YOUREMAIL",
+        "password": "PASSWORD",
         "service": "gmail"
     },
     "timeZone": "Asia/Calcutta",
@@ -23,7 +23,7 @@
 
     "paytmConfig" : {
 
-        "MID" : "rNItqH27297545777088",
+        "MID" : "",
         "MKEY" : "PLF56PXWYKaOfsMG",
         "ENV" : "securegw-stage.paytm.in",  
         "WEBSITE" : "WEBSTAGING",
